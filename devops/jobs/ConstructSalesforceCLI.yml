@@ -13,5 +13,5 @@ parameters:
 steps:
 - task: DownloadSecureFile@1
   inputs:
-     secureFile: 'server.key'
+     secureFile: 'import.json'
 
