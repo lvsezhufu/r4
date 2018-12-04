@@ -1,0 +1,13 @@
+  steps:
+  #Master
+  - script: |
+      echo '##vso[task.setvariable variable=private_key]$(production.org.key)'
+      echo '##vso[task.setvariable variable=clientid]$(production.org.clientid)'
+      echo '##vso[task.setvariable variable=username]$(production.org.username)'
+      echo '##vso[task.setvariable variable=url]$(production.org.url)'
+      echo '##vso[task.setvariable variable=deploymenttype]$(production.deployment.deploymenttype)'
+      echo '##vso[task.setvariable variable=component]$(production.deployment.component)'
+      echo '##vso[task.setvariable variable=coverage_target]$(production.testclass.coveragetarget)'
+    name: setVariableMasterProd
+    condition: and(or(contains(variables['Build.SourceBranchName'], 'master'),contains(variables['System.PullRequest.TargetBranch'], 'master')), contains(variables['target.master'], 'production'))
+

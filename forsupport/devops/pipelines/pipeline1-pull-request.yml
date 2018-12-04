@@ -1,0 +1,21 @@
+
+jobs:
+
+# Job when someone has created a pull request    
+- job: Job_PullRequest
+  timeoutInMinutes: 120
+  condition: 
+       and(succeeded(),contains(variables['Build.Reason'], 'PullRequest'))
+  pool: 
+      vmImage: 'Ubuntu 16.04'
+
+  steps:
+  - template: ../pipelines/pipeline0-variables.yml
+  #install SFDX Cli, configure it
+  - template: ../jobs/ConstructSalesforceCLI.yml  # Template reference
+    parameters:
+       # the securefile corresponds to the private key associated to the salesforce certificate. The private key is stored into the securefile area
+       private_key: $(private_key)
+       clientid: $(clientid)
+       username: $(username)
+       url: $(url)
