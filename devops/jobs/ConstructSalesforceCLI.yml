@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 parameters:
-  private_key: 'server.key'
+  private_key: 'import.json'
   clientid: ''
   username: ''
   url: ''
