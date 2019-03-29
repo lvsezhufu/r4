@@ -1,17 +1,13 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
+steps:
+- task: AzureKeyVault@1
+  displayName: 'Azure Key Vault: markey'
+  inputs:
+    azureSubscription: 'Microsoft Azure Internal Consumption (e7495e6a-6008-49fa-b66c-46709c41acd1)'
+    KeyVaultName: markey
 
-trigger:
-  branches:
-    include: 
-     - master  
-     - release*
-     - develop
-     - develop-*
-     - hotfix-*
-     
- 
-jobs:
-  - template : devops/pipelines/pipeline1-pull-request.yml
+- powershell: |
+   ls env:
+   echo "******************************************manual*************************************"
+   
+   git clone https://Personal%20Access%20Token:$(pat)@marinaliu.visualstudio.com/Git2/_git/product1
+  displayName: 'PowerShell Script'
