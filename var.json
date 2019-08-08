@@ -1,0 +1,1035 @@
+{
+    "id": 986,
+    "name": "Release-6",
+    "status": "active",
+    "createdOn": "2019-08-08T03:06:15.917Z",
+    "modifiedOn": "2019-08-08T03:06:15.917Z",
+    "modifiedBy": {
+        "displayName": "marina liu",
+        "url": "https://spsprodeus22.vssps.visualstudio.com/A2336cdc9-ffd7-41bb-a6cf-19002c9a9d5f/_apis/Identities/18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+        "_links": {
+            "avatar": {
+                "href": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+            }
+        },
+        "id": "18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+        "uniqueName": "marinaliu121@outlook.com",
+        "imageUrl": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0",
+        "descriptor": "msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+    },
+    "createdBy": {
+        "displayName": "marina liu",
+        "url": "https://spsprodeus22.vssps.visualstudio.com/A2336cdc9-ffd7-41bb-a6cf-19002c9a9d5f/_apis/Identities/18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+        "_links": {
+            "avatar": {
+                "href": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+            }
+        },
+        "id": "18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+        "uniqueName": "marinaliu121@outlook.com",
+        "imageUrl": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0",
+        "descriptor": "msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+    },
+    "environments": [
+        {
+            "id": 1443,
+            "releaseId": 986,
+            "name": "Stage 1",
+            "status": "succeeded",
+            "variables": {},
+            "variableGroups": [],
+            "preDeployApprovals": [
+                {
+                    "id": 2984,
+                    "revision": 1,
+                    "approvalType": "preDeploy",
+                    "createdOn": "2019-08-08T03:06:16.37Z",
+                    "modifiedOn": "2019-08-08T03:06:16.377Z",
+                    "status": "approved",
+                    "comments": "",
+                    "isAutomated": true,
+                    "isNotificationOn": false,
+                    "trialNumber": 1,
+                    "attempt": 1,
+                    "rank": 1,
+                    "release": {
+                        "id": 986,
+                        "name": "Release-6",
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986",
+                        "_links": {}
+                    },
+                    "releaseDefinition": {
+                        "id": 12,
+                        "name": "schedule1",
+                        "path": "\\",
+                        "projectReference": null,
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/definitions/12",
+                        "_links": {}
+                    },
+                    "releaseEnvironment": {
+                        "id": 1443,
+                        "name": "Stage 1",
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986/environments/1443",
+                        "_links": {}
+                    },
+                    "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/approvals/2984"
+                }
+            ],
+            "postDeployApprovals": [
+                {
+                    "id": 2986,
+                    "revision": 1,
+                    "approvalType": "postDeploy",
+                    "createdOn": "2019-08-08T03:06:46.61Z",
+                    "modifiedOn": "2019-08-08T03:06:46.617Z",
+                    "status": "approved",
+                    "comments": "",
+                    "isAutomated": true,
+                    "isNotificationOn": false,
+                    "trialNumber": 1,
+                    "attempt": 1,
+                    "rank": 3,
+                    "release": {
+                        "id": 986,
+                        "name": "Release-6",
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986",
+                        "_links": {}
+                    },
+                    "releaseDefinition": {
+                        "id": 12,
+                        "name": "schedule1",
+                        "path": "\\",
+                        "projectReference": null,
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/definitions/12",
+                        "_links": {}
+                    },
+                    "releaseEnvironment": {
+                        "id": 1443,
+                        "name": "Stage 1",
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986/environments/1443",
+                        "_links": {}
+                    },
+                    "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/approvals/2986"
+                }
+            ],
+            "preApprovalsSnapshot": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 0
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": "beforeGates"
+                }
+            },
+            "postApprovalsSnapshot": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 0
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": "afterSuccessfulGates"
+                }
+            },
+            "deploySteps": [
+                {
+                    "id": 2985,
+                    "deploymentId": 1156,
+                    "attempt": 1,
+                    "reason": "automated",
+                    "status": "succeeded",
+                    "operationStatus": "Approved",
+                    "releaseDeployPhases": [
+                        {
+                            "id": 1168,
+                            "phaseId": "1168",
+                            "name": "Agent job",
+                            "rank": 1,
+                            "phaseType": "agentBasedDeployment",
+                            "status": "succeeded",
+                            "runPlanId": "42c631f1-ba63-4995-8491-ba254fc6c309",
+                            "deploymentJobs": [
+                                {
+                                    "job": {
+                                        "id": 6,
+                                        "timelineRecordId": "a1ebb314-0d0b-582b-0024-e421dea1c064",
+                                        "name": "Agent job",
+                                        "dateStarted": "2019-08-08T03:06:25.9333333Z",
+                                        "dateEnded": "2019-08-08T03:06:41.5533333Z",
+                                        "startTime": "2019-08-08T03:06:25.9333333Z",
+                                        "finishTime": "2019-08-08T03:06:41.5533333Z",
+                                        "status": "succeeded",
+                                        "rank": 1,
+                                        "issues": [],
+                                        "agentName": "VKULIU531VM",
+                                        "logUrl": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986/environments/1443/deployPhases/1168/tasks/6/logs"
+                                    },
+                                    "tasks": [
+                                        {
+                                            "id": 3,
+                                            "timelineRecordId": "9ea28732-9c63-47eb-ae28-7db74ceb1ba0",
+                                            "name": "Initialize Job",
+                                            "dateStarted": "2019-08-08T03:06:27.69Z",
+                                            "dateEnded": "2019-08-08T03:06:34.5566667Z",
+                                            "startTime": "2019-08-08T03:06:27.69Z",
+                                            "finishTime": "2019-08-08T03:06:34.5566667Z",
+                                            "status": "succeeded",
+                                            "rank": 1,
+                                            "issues": [],
+                                            "agentName": "VKULIU531VM",
+                                            "logUrl": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986/environments/1443/deployPhases/1168/tasks/3/logs"
+                                        },
+                                        {
+                                            "id": 4,
+                                            "timelineRecordId": "ae4b32ba-a7ce-55b1-10ea-5078db0b4758",
+                                            "name": "PowerShell Script",
+                                            "dateStarted": "2019-08-08T03:06:34.61Z",
+                                            "dateEnded": "2019-08-08T03:06:41.45Z",
+                                            "startTime": "2019-08-08T03:06:34.61Z",
+                                            "finishTime": "2019-08-08T03:06:41.45Z",
+                                            "status": "succeeded",
+                                            "rank": 2,
+                                            "issues": [],
+                                            "task": {
+                                                "id": "e213ff0f-5d5c-4791-802d-52ea3e7be1f1",
+                                                "name": "PowerShell",
+                                                "version": "2.151.2"
+                                            },
+                                            "agentName": "VKULIU531VM",
+                                            "logUrl": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986/environments/1443/deployPhases/1168/tasks/4/logs"
+                                        },
+                                        {
+                                            "id": 5,
+                                            "timelineRecordId": "c21413c2-09f7-44f8-b60c-e8ae40f4b38a",
+                                            "name": "Finalize Job",
+                                            "dateStarted": "2019-08-08T03:06:41.5066667Z",
+                                            "dateEnded": "2019-08-08T03:06:41.5233333Z",
+                                            "startTime": "2019-08-08T03:06:41.5066667Z",
+                                            "finishTime": "2019-08-08T03:06:41.5233333Z",
+                                            "status": "succeeded",
+                                            "percentComplete": 100,
+                                            "rank": 3,
+                                            "issues": [],
+                                            "agentName": "VKULIU531VM",
+                                            "logUrl": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986/environments/1443/deployPhases/1168/tasks/5/logs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "manualInterventions": [],
+                            "startedOn": "2019-08-08T03:06:18.997Z"
+                        }
+                    ],
+                    "requestedBy": {
+                        "displayName": "marina liu",
+                        "url": "https://spsprodeus22.vssps.visualstudio.com/A2336cdc9-ffd7-41bb-a6cf-19002c9a9d5f/_apis/Identities/18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                        "_links": {
+                            "avatar": {
+                                "href": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                            }
+                        },
+                        "id": "18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                        "uniqueName": "marinaliu121@outlook.com",
+                        "imageUrl": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0",
+                        "descriptor": "msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                    },
+                    "requestedFor": {
+                        "displayName": "marina liu",
+                        "url": "https://spsprodeus22.vssps.visualstudio.com/A2336cdc9-ffd7-41bb-a6cf-19002c9a9d5f/_apis/Identities/18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                        "_links": {
+                            "avatar": {
+                                "href": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                            }
+                        },
+                        "id": "18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                        "uniqueName": "marinaliu121@outlook.com",
+                        "imageUrl": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0",
+                        "descriptor": "msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                    },
+                    "queuedOn": "2019-08-08T03:06:15.973Z",
+                    "lastModifiedBy": {
+                        "displayName": "Microsoft.VisualStudio.Services.ReleaseManagement",
+                        "id": "0000000d-0000-8888-8000-000000000000",
+                        "uniqueName": "0000000d-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+                        "descriptor": "s2s.MDAwMDAwMGQtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+                    },
+                    "lastModifiedOn": "2019-08-08T03:06:46.63Z",
+                    "hasStarted": true,
+                    "tasks": [],
+                    "runPlanId": "00000000-0000-0000-0000-000000000000",
+                    "issues": []
+                }
+            ],
+            "rank": 1,
+            "definitionEnvironmentId": 42,
+            "environmentOptions": {
+                "emailNotificationType": "OnlyOnFailure",
+                "emailRecipients": "release.environment.owner;release.creator",
+                "skipArtifactsDownload": false,
+                "timeoutInMinutes": 0,
+                "enableAccessToken": false,
+                "publishDeploymentStatus": true,
+                "badgeEnabled": false,
+                "autoLinkWorkItems": false,
+                "pullRequestDeploymentEnabled": false
+            },
+            "demands": [],
+            "conditions": [
+                {
+                    "result": true,
+                    "name": "ReleaseStarted",
+                    "conditionType": "event",
+                    "value": ""
+                }
+            ],
+            "createdOn": "2019-08-08T03:06:15.973Z",
+            "modifiedOn": "2019-08-08T03:06:46.617Z",
+            "workflowTasks": [],
+            "deployPhasesSnapshot": [
+                {
+                    "deploymentInput": {
+                        "parallelExecution": {
+                            "parallelExecutionType": "none"
+                        },
+                        "agentSpecification": null,
+                        "skipArtifactsDownload": false,
+                        "artifactsDownloadInput": {
+                            "downloadInputs": [
+                                {
+                                    "alias": "_schedule1",
+                                    "artifactType": "Build",
+                                    "artifactDownloadMode": "All",
+                                    "artifactItems": []
+                                }
+                            ]
+                        },
+                        "queueId": 761,
+                        "demands": [],
+                        "enableAccessToken": false,
+                        "timeoutInMinutes": 0,
+                        "jobCancelTimeoutInMinutes": 1,
+                        "condition": "succeeded()",
+                        "overrideInputs": {}
+                    },
+                    "rank": 1,
+                    "phaseType": "agentBasedDeployment",
+                    "name": "Agent job",
+                    "refName": null,
+                    "workflowTasks": [
+                        {
+                            "environment": {},
+                            "taskId": "e213ff0f-5d5c-4791-802d-52ea3e7be1f1",
+                            "version": "2.*",
+                            "name": "PowerShell Script",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "targetType": "inline",
+                                "filePath": "",
+                                "arguments": "",
+                                "script": "# Write your PowerShell commands here.\n\nWrite-Host \"Hello World\"\n",
+                                "errorActionPreference": "stop",
+                                "failOnStderr": "false",
+                                "ignoreLASTEXITCODE": "false",
+                                "pwsh": "false",
+                                "workingDirectory": ""
+                            }
+                        }
+                    ]
+                }
+            ],
+            "owner": {
+                "displayName": "marina liu",
+                "url": "https://spsprodeus22.vssps.visualstudio.com/A2336cdc9-ffd7-41bb-a6cf-19002c9a9d5f/_apis/Identities/18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                    }
+                },
+                "id": "18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                "uniqueName": "marinaliu121@outlook.com",
+                "imageUrl": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0",
+                "descriptor": "msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+            },
+            "schedules": [],
+            "release": {
+                "id": 986,
+                "name": "Release-6",
+                "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986",
+                "_links": {
+                    "web": {
+                        "href": "https://dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_release?releaseId=986&_a=release-summary"
+                    },
+                    "self": {
+                        "href": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986"
+                    }
+                }
+            },
+            "releaseDefinition": {
+                "id": 12,
+                "name": "schedule1",
+                "path": "\\",
+                "projectReference": null,
+                "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/definitions/12",
+                "_links": {
+                    "web": {
+                        "href": "https://dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_release?definitionId=12"
+                    },
+                    "self": {
+                        "href": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/definitions/12"
+                    }
+                }
+            },
+            "releaseCreatedBy": {
+                "displayName": "marina liu",
+                "url": "https://spsprodeus22.vssps.visualstudio.com/A2336cdc9-ffd7-41bb-a6cf-19002c9a9d5f/_apis/Identities/18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                    }
+                },
+                "id": "18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                "uniqueName": "marinaliu121@outlook.com",
+                "imageUrl": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0",
+                "descriptor": "msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+            },
+            "triggerReason": "ReleaseStarted",
+            "timeToDeploy": 0.50295,
+            "processParameters": {},
+            "preDeploymentGatesSnapshot": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "postDeploymentGatesSnapshot": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            }
+        },
+        {
+            "id": 1444,
+            "releaseId": 986,
+            "name": "Stage 2",
+            "status": "succeeded",
+            "variables": {},
+            "variableGroups": [],
+            "preDeployApprovals": [
+                {
+                    "id": 2987,
+                    "revision": 1,
+                    "approver": {
+                        "displayName": "marina liu",
+                        "url": "https://spsprodeus22.vssps.visualstudio.com/A2336cdc9-ffd7-41bb-a6cf-19002c9a9d5f/_apis/Identities/18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                        "_links": {
+                            "avatar": {
+                                "href": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                            }
+                        },
+                        "id": "18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                        "uniqueName": "marinaliu121@outlook.com",
+                        "imageUrl": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0",
+                        "descriptor": "msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                    },
+                    "approvedBy": {
+                        "displayName": "marina liu",
+                        "url": "https://spsprodeus22.vssps.visualstudio.com/A2336cdc9-ffd7-41bb-a6cf-19002c9a9d5f/_apis/Identities/18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                        "_links": {
+                            "avatar": {
+                                "href": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                            }
+                        },
+                        "id": "18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                        "uniqueName": "marinaliu121@outlook.com",
+                        "imageUrl": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0",
+                        "descriptor": "msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                    },
+                    "approvalType": "preDeploy",
+                    "createdOn": "2019-08-08T03:06:46.83Z",
+                    "modifiedOn": "2019-08-08T03:22:06.47Z",
+                    "status": "approved",
+                    "comments": "",
+                    "isAutomated": false,
+                    "isNotificationOn": false,
+                    "trialNumber": 1,
+                    "attempt": 1,
+                    "rank": 1,
+                    "release": {
+                        "id": 986,
+                        "name": "Release-6",
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986",
+                        "_links": {}
+                    },
+                    "releaseDefinition": {
+                        "id": 12,
+                        "name": "schedule1",
+                        "path": "\\",
+                        "projectReference": null,
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/definitions/12",
+                        "_links": {}
+                    },
+                    "releaseEnvironment": {
+                        "id": 1444,
+                        "name": "Stage 2",
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986/environments/1444",
+                        "_links": {}
+                    },
+                    "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/approvals/2987"
+                },
+                {
+                    "id": 2988,
+                    "revision": 1,
+                    "approver": {
+                        "displayName": "kuai test",
+                        "url": "https://spsprodeus22.vssps.visualstudio.com/A2336cdc9-ffd7-41bb-a6cf-19002c9a9d5f/_apis/Identities/5ce75e12-7bbc-6081-b559-2078f8d5942e",
+                        "_links": {
+                            "avatar": {
+                                "href": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.ODhlYjYwODItOGI1NS03NjJmLTg4MjAtZGM5NDUwMzI1YzE0"
+                            }
+                        },
+                        "id": "5ce75e12-7bbc-6081-b559-2078f8d5942e",
+                        "uniqueName": "kuaitest@outlook.com",
+                        "imageUrl": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.ODhlYjYwODItOGI1NS03NjJmLTg4MjAtZGM5NDUwMzI1YzE0",
+                        "descriptor": "msa.ODhlYjYwODItOGI1NS03NjJmLTg4MjAtZGM5NDUwMzI1YzE0"
+                    },
+                    "approvalType": "preDeploy",
+                    "createdOn": "2019-08-08T03:06:46.83Z",
+                    "modifiedOn": "2019-08-08T03:22:06.553Z",
+                    "status": "skipped",
+                    "comments": "Skipping as 1 required approval(s) were obtained.",
+                    "isAutomated": false,
+                    "isNotificationOn": false,
+                    "trialNumber": 1,
+                    "attempt": 1,
+                    "rank": 1,
+                    "release": {
+                        "id": 986,
+                        "name": "Release-6",
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986",
+                        "_links": {}
+                    },
+                    "releaseDefinition": {
+                        "id": 12,
+                        "name": "schedule1",
+                        "path": "\\",
+                        "projectReference": null,
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/definitions/12",
+                        "_links": {}
+                    },
+                    "releaseEnvironment": {
+                        "id": 1444,
+                        "name": "Stage 2",
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986/environments/1444",
+                        "_links": {}
+                    },
+                    "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/approvals/2988"
+                }
+            ],
+            "postDeployApprovals": [
+                {
+                    "id": 2990,
+                    "revision": 1,
+                    "approvalType": "postDeploy",
+                    "createdOn": "2019-08-08T03:22:29.633Z",
+                    "modifiedOn": "2019-08-08T03:22:29.64Z",
+                    "status": "approved",
+                    "comments": "",
+                    "isAutomated": true,
+                    "isNotificationOn": false,
+                    "trialNumber": 1,
+                    "attempt": 1,
+                    "rank": 3,
+                    "release": {
+                        "id": 986,
+                        "name": "Release-6",
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986",
+                        "_links": {}
+                    },
+                    "releaseDefinition": {
+                        "id": 12,
+                        "name": "schedule1",
+                        "path": "\\",
+                        "projectReference": null,
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/definitions/12",
+                        "_links": {}
+                    },
+                    "releaseEnvironment": {
+                        "id": 1444,
+                        "name": "Stage 2",
+                        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986/environments/1444",
+                        "_links": {}
+                    },
+                    "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/approvals/2990"
+                }
+            ],
+            "preApprovalsSnapshot": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": false,
+                        "isNotificationOn": false,
+                        "approver": {
+                            "displayName": "marina liu",
+                            "url": "https://spsprodeus22.vssps.visualstudio.com/A2336cdc9-ffd7-41bb-a6cf-19002c9a9d5f/_apis/Identities/18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                            "_links": {
+                                "avatar": {
+                                    "href": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                                }
+                            },
+                            "id": "18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                            "uniqueName": "marinaliu121@outlook.com",
+                            "imageUrl": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0",
+                            "descriptor": "msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                        },
+                        "id": 0
+                    },
+                    {
+                        "rank": 1,
+                        "isAutomated": false,
+                        "isNotificationOn": false,
+                        "approver": {
+                            "displayName": "kuai test",
+                            "url": "https://spsprodeus22.vssps.visualstudio.com/A2336cdc9-ffd7-41bb-a6cf-19002c9a9d5f/_apis/Identities/5ce75e12-7bbc-6081-b559-2078f8d5942e",
+                            "_links": {
+                                "avatar": {
+                                    "href": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.ODhlYjYwODItOGI1NS03NjJmLTg4MjAtZGM5NDUwMzI1YzE0"
+                                }
+                            },
+                            "id": "5ce75e12-7bbc-6081-b559-2078f8d5942e",
+                            "uniqueName": "kuaitest@outlook.com",
+                            "imageUrl": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.ODhlYjYwODItOGI1NS03NjJmLTg4MjAtZGM5NDUwMzI1YzE0",
+                            "descriptor": "msa.ODhlYjYwODItOGI1NS03NjJmLTg4MjAtZGM5NDUwMzI1YzE0"
+                        },
+                        "id": 0
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": 1,
+                    "releaseCreatorCanBeApprover": true,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 43200,
+                    "executionOrder": "beforeGates"
+                }
+            },
+            "postApprovalsSnapshot": {
+                "approvals": [
+                    {
+                        "rank": 1,
+                        "isAutomated": true,
+                        "isNotificationOn": false,
+                        "id": 0
+                    }
+                ],
+                "approvalOptions": {
+                    "requiredApproverCount": null,
+                    "releaseCreatorCanBeApprover": false,
+                    "autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+                    "enforceIdentityRevalidation": false,
+                    "timeoutInMinutes": 0,
+                    "executionOrder": "afterSuccessfulGates"
+                }
+            },
+            "deploySteps": [
+                {
+                    "id": 2989,
+                    "deploymentId": 1157,
+                    "attempt": 1,
+                    "reason": "automated",
+                    "status": "succeeded",
+                    "operationStatus": "Approved",
+                    "releaseDeployPhases": [
+                        {
+                            "id": 1169,
+                            "phaseId": "1169",
+                            "name": "Agent job",
+                            "rank": 1,
+                            "phaseType": "agentBasedDeployment",
+                            "status": "succeeded",
+                            "runPlanId": "9cbe6bc6-6b0b-4e00-85e4-037013b69e7f",
+                            "deploymentJobs": [
+                                {
+                                    "job": {
+                                        "id": 6,
+                                        "timelineRecordId": "4524cefd-9fd6-5f4a-8662-a069548dd9ae",
+                                        "name": "Agent job",
+                                        "dateStarted": "2019-08-08T03:22:15.2733333Z",
+                                        "dateEnded": "2019-08-08T03:22:23.7766667Z",
+                                        "startTime": "2019-08-08T03:22:15.2733333Z",
+                                        "finishTime": "2019-08-08T03:22:23.7766667Z",
+                                        "status": "succeeded",
+                                        "rank": 1,
+                                        "issues": [],
+                                        "agentName": "VKULIU531VM",
+                                        "logUrl": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986/environments/1444/deployPhases/1169/tasks/6/logs"
+                                    },
+                                    "tasks": [
+                                        {
+                                            "id": 3,
+                                            "timelineRecordId": "cb1d9c3b-8b8e-4791-a6f9-3edb53dbb8f8",
+                                            "name": "Initialize Job",
+                                            "dateStarted": "2019-08-08T03:22:16.2433333Z",
+                                            "dateEnded": "2019-08-08T03:22:17.8433333Z",
+                                            "startTime": "2019-08-08T03:22:16.2433333Z",
+                                            "finishTime": "2019-08-08T03:22:17.8433333Z",
+                                            "status": "succeeded",
+                                            "rank": 1,
+                                            "issues": [],
+                                            "agentName": "VKULIU531VM",
+                                            "logUrl": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986/environments/1444/deployPhases/1169/tasks/3/logs"
+                                        },
+                                        {
+                                            "id": 4,
+                                            "timelineRecordId": "2f7942e4-a594-5aa3-826f-8f3a5758ba15",
+                                            "name": "PowerShell Script",
+                                            "dateStarted": "2019-08-08T03:22:17.8966667Z",
+                                            "dateEnded": "2019-08-08T03:22:23.6633333Z",
+                                            "startTime": "2019-08-08T03:22:17.8966667Z",
+                                            "finishTime": "2019-08-08T03:22:23.6633333Z",
+                                            "status": "succeeded",
+                                            "rank": 2,
+                                            "issues": [],
+                                            "task": {
+                                                "id": "e213ff0f-5d5c-4791-802d-52ea3e7be1f1",
+                                                "name": "PowerShell",
+                                                "version": "2.151.2"
+                                            },
+                                            "agentName": "VKULIU531VM",
+                                            "logUrl": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986/environments/1444/deployPhases/1169/tasks/4/logs"
+                                        },
+                                        {
+                                            "id": 5,
+                                            "timelineRecordId": "c52e5bef-701b-434a-800c-81a4c01d3abb",
+                                            "name": "Finalize Job",
+                                            "dateStarted": "2019-08-08T03:22:23.7133333Z",
+                                            "dateEnded": "2019-08-08T03:22:23.74Z",
+                                            "startTime": "2019-08-08T03:22:23.7133333Z",
+                                            "finishTime": "2019-08-08T03:22:23.74Z",
+                                            "status": "succeeded",
+                                            "rank": 3,
+                                            "issues": [],
+                                            "agentName": "VKULIU531VM",
+                                            "logUrl": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986/environments/1444/deployPhases/1169/tasks/5/logs"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "manualInterventions": [],
+                            "startedOn": "2019-08-08T03:22:09.263Z"
+                        }
+                    ],
+                    "requestedBy": {
+                        "displayName": "Microsoft.VisualStudio.Services.ReleaseManagement",
+                        "id": "0000000d-0000-8888-8000-000000000000",
+                        "uniqueName": "0000000d-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+                        "descriptor": "s2s.MDAwMDAwMGQtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+                    },
+                    "requestedFor": {
+                        "displayName": "marina liu",
+                        "url": "https://spsprodeus22.vssps.visualstudio.com/A2336cdc9-ffd7-41bb-a6cf-19002c9a9d5f/_apis/Identities/18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                        "_links": {
+                            "avatar": {
+                                "href": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                            }
+                        },
+                        "id": "18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                        "uniqueName": "marinaliu121@outlook.com",
+                        "imageUrl": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0",
+                        "descriptor": "msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                    },
+                    "queuedOn": "2019-08-08T03:06:46.66Z",
+                    "lastModifiedBy": {
+                        "displayName": "Microsoft.VisualStudio.Services.ReleaseManagement",
+                        "id": "0000000d-0000-8888-8000-000000000000",
+                        "uniqueName": "0000000d-0000-8888-8000-000000000000@2c895908-04e0-4952-89fd-54b0046d6288",
+                        "descriptor": "s2s.MDAwMDAwMGQtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDJjODk1OTA4LTA0ZTAtNDk1Mi04OWZkLTU0YjAwNDZkNjI4OA"
+                    },
+                    "lastModifiedOn": "2019-08-08T03:22:29.663Z",
+                    "hasStarted": true,
+                    "tasks": [],
+                    "runPlanId": "00000000-0000-0000-0000-000000000000",
+                    "issues": []
+                }
+            ],
+            "rank": 2,
+            "definitionEnvironmentId": 43,
+            "environmentOptions": {
+                "emailNotificationType": "OnlyOnFailure",
+                "emailRecipients": "release.environment.owner;release.creator",
+                "skipArtifactsDownload": false,
+                "timeoutInMinutes": 0,
+                "enableAccessToken": false,
+                "publishDeploymentStatus": true,
+                "badgeEnabled": false,
+                "autoLinkWorkItems": false,
+                "pullRequestDeploymentEnabled": false
+            },
+            "demands": [],
+            "conditions": [
+                {
+                    "result": true,
+                    "name": "Stage 1",
+                    "conditionType": "environmentState",
+                    "value": "4"
+                }
+            ],
+            "createdOn": "2019-08-08T03:06:46.66Z",
+            "modifiedOn": "2019-08-08T03:22:29.64Z",
+            "workflowTasks": [],
+            "deployPhasesSnapshot": [
+                {
+                    "deploymentInput": {
+                        "parallelExecution": {
+                            "parallelExecutionType": "none"
+                        },
+                        "agentSpecification": null,
+                        "skipArtifactsDownload": false,
+                        "artifactsDownloadInput": {
+                            "downloadInputs": []
+                        },
+                        "queueId": 761,
+                        "demands": [],
+                        "enableAccessToken": false,
+                        "timeoutInMinutes": 0,
+                        "jobCancelTimeoutInMinutes": 1,
+                        "condition": "succeeded()",
+                        "overrideInputs": {}
+                    },
+                    "rank": 1,
+                    "phaseType": "agentBasedDeployment",
+                    "name": "Agent job",
+                    "refName": null,
+                    "workflowTasks": [
+                        {
+                            "environment": {},
+                            "taskId": "e213ff0f-5d5c-4791-802d-52ea3e7be1f1",
+                            "version": "2.*",
+                            "name": "PowerShell Script",
+                            "refName": "",
+                            "enabled": true,
+                            "alwaysRun": false,
+                            "continueOnError": false,
+                            "timeoutInMinutes": 0,
+                            "definitionType": "task",
+                            "overrideInputs": {},
+                            "condition": "succeeded()",
+                            "inputs": {
+                                "targetType": "inline",
+                                "filePath": "",
+                                "arguments": "",
+                                "script": "# Write your PowerShell commands here.\n\nWrite-Host \"Hello World\"\n",
+                                "errorActionPreference": "stop",
+                                "failOnStderr": "false",
+                                "ignoreLASTEXITCODE": "false",
+                                "pwsh": "false",
+                                "workingDirectory": ""
+                            }
+                        }
+                    ]
+                }
+            ],
+            "owner": {
+                "displayName": "marina liu",
+                "url": "https://spsprodeus22.vssps.visualstudio.com/A2336cdc9-ffd7-41bb-a6cf-19002c9a9d5f/_apis/Identities/18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                    }
+                },
+                "id": "18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                "uniqueName": "marinaliu121@outlook.com",
+                "imageUrl": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0",
+                "descriptor": "msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+            },
+            "schedules": [],
+            "release": {
+                "id": 986,
+                "name": "Release-6",
+                "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986",
+                "_links": {
+                    "web": {
+                        "href": "https://dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_release?releaseId=986&_a=release-summary"
+                    },
+                    "self": {
+                        "href": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986"
+                    }
+                }
+            },
+            "releaseDefinition": {
+                "id": 12,
+                "name": "schedule1",
+                "path": "\\",
+                "projectReference": null,
+                "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/definitions/12",
+                "_links": {
+                    "web": {
+                        "href": "https://dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_release?definitionId=12"
+                    },
+                    "self": {
+                        "href": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/definitions/12"
+                    }
+                }
+            },
+            "releaseCreatedBy": {
+                "displayName": "marina liu",
+                "url": "https://spsprodeus22.vssps.visualstudio.com/A2336cdc9-ffd7-41bb-a6cf-19002c9a9d5f/_apis/Identities/18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                "_links": {
+                    "avatar": {
+                        "href": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+                    }
+                },
+                "id": "18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                "uniqueName": "marinaliu121@outlook.com",
+                "imageUrl": "https://dev.azure.com/marinaliu/_apis/GraphProfile/MemberAvatars/msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0",
+                "descriptor": "msa.YjE2YzFlOWUtNWJkYy03NzU1LWJjNWEtNDU4M2Q5ZThlMjk0"
+            },
+            "triggerReason": "After successful deployment of Stage 1",
+            "timeToDeploy": 0.38373333333333332,
+            "processParameters": {},
+            "preDeploymentGatesSnapshot": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            },
+            "postDeploymentGatesSnapshot": {
+                "id": 0,
+                "gatesOptions": null,
+                "gates": []
+            }
+        }
+    ],
+    "variables": {
+        "system.debug": {
+            "value": "true"
+        }
+    },
+    "variableGroups": [],
+    "artifacts": [
+        {
+            "sourceId": "f7855e29-6f8d-429d-8c9b-41fd4d7e70a4:108",
+            "type": "Build",
+            "alias": "_schedule1",
+            "definitionReference": {
+                "artifactSourceDefinitionUrl": {
+                    "id": "https://dev.azure.com/marinaliu/_permalink/_build/index?collectionId=fc52d179-f3fd-460b-adb1-5ac84bd0e765&projectId=f7855e29-6f8d-429d-8c9b-41fd4d7e70a4&definitionId=108",
+                    "name": ""
+                },
+                "buildUri": {
+                    "id": "vstfs:///Build/Build/3920",
+                    "name": null
+                },
+                "definition": {
+                    "id": "108",
+                    "name": "schedule1"
+                },
+                "IsMultiDefinitionType": {
+                    "id": "False",
+                    "name": "False"
+                },
+                "IsXamlBuildArtifactType": {
+                    "id": "False",
+                    "name": null
+                },
+                "project": {
+                    "id": "f7855e29-6f8d-429d-8c9b-41fd4d7e70a4",
+                    "name": "Git2"
+                },
+                "repository.provider": {
+                    "id": "TfsGit",
+                    "name": null
+                },
+                "repository": {
+                    "id": "2356d700-36e8-4dd7-ba7e-c2d5168bca3b",
+                    "name": "test3"
+                },
+                "requestedFor": {
+                    "id": "marina liu",
+                    "name": null
+                },
+                "requestedForId": {
+                    "id": "18cb43b4-0b0d-43ad-94dc-c8e2b56704c0",
+                    "name": null
+                },
+                "sourceVersion": {
+                    "id": "2989d5a7fc1e4d142969d38addc13feac546410c",
+                    "name": null
+                },
+                "version": {
+                    "id": "3920",
+                    "name": "20190711.8"
+                },
+                "artifactSourceVersionUrl": {
+                    "id": "https://dev.azure.com/marinaliu/_permalink/_build/index?collectionId=fc52d179-f3fd-460b-adb1-5ac84bd0e765&projectId=f7855e29-6f8d-429d-8c9b-41fd4d7e70a4&buildId=3920",
+                    "name": ""
+                },
+                "branch": {
+                    "id": "refs/heads/master",
+                    "name": "refs/heads/master"
+                }
+            },
+            "isPrimary": true,
+            "isRetained": true
+        }
+    ],
+    "releaseDefinition": {
+        "id": 12,
+        "name": "schedule1",
+        "path": "\\",
+        "projectReference": null,
+        "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/definitions/12",
+        "_links": {
+            "self": {
+                "href": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/definitions/12"
+            },
+            "web": {
+                "href": "https://dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_release?definitionId=12"
+            }
+        }
+    },
+    "releaseDefinitionRevision": 8,
+    "description": "",
+    "reason": "manual",
+    "releaseNameFormat": "Release-$(rev:r)",
+    "keepForever": false,
+    "definitionSnapshotRevision": 1,
+    "logsContainerUrl": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986/logs",
+    "url": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986",
+    "_links": {
+        "self": {
+            "href": "https://vsrm.dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_apis/Release/releases/986"
+        },
+        "web": {
+            "href": "https://dev.azure.com/marinaliu/f7855e29-6f8d-429d-8c9b-41fd4d7e70a4/_release?releaseId=986&_a=release-summary"
+        }
+    },
+    "tags": [],
+    "triggeringArtifactAlias": null,
+    "projectReference": {
+        "id": "f7855e29-6f8d-429d-8c9b-41fd4d7e70a4",
+        "name": null
+    },
+    "properties": {}
+}
